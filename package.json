@@ -12,20 +12,25 @@
     "@vercel/functions": "^3.7.1",
     "boring-avatars": "^2.0.4",
     "ioredis": "^5.11.1",
-    "next": "16.2.9",
+    "next": "16.4.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "ws": "^8.21.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.3.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/ws": "^8.18.1",
     "eslint": "^9",
-    "eslint-config-next": "16.2.9",
-    "tailwindcss": "^4",
+    "eslint-config-next": "16.4.1",
+    "tailwindcss": "^4.3.2",
     "typescript": "^5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@vercel/cli-config>zod": "4.6.7"
+    }
   }
 }
